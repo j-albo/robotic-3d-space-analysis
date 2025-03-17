@@ -83,11 +83,12 @@ Before scanning:
 
 ### **Installation**
 
-´´´bash
+```bash
 git clone https://github.com/j-albo/robotic-3d-space-analysis.git
 cd robotic-3d-space-analysis
 source /opt/ros/humble/setup.bash
 pip install -r requirements.txt
+```
 
 ## **📌 Data Recording**
 - **ROS2 Bag Recording** captures **LiDAR, Odometry, and Camera data**.
@@ -165,12 +166,13 @@ The **point cloud data** was processed using:
 ros2 bag play /path/to/bagfile
 python3 scripts/save_pointcloud_frames.py
 python3 scripts/final_scrip.py
+```
 
 ## **📌 Authors**
 - **[Javi Albo](https://github.com/j-albo)** 
-- **[Mau Weber](https://github.com/j-albo)** 
-- **[Charlie Larraín](https://github.com/j-albo)**   
-- **[Vasili ](https://github.com/j-albo)** 
+- **[Mau Weber](https://github.com/Mauweberla)** 
+- **[Charlie Larraín](https://github.com/Clarrainl)**   
+- **[Vasili ](https://github.com/VasiliMav)** 
 
 ## **📌 References**
 - [Unitree Go2 Robot](https://www.unitree.com/products/go2/)
@@ -192,5 +194,3 @@ Special thanks to:
 - **The Open3D community** for continuous improvements in 3D point cloud processing.
 
 ---
-
-### 🚀 **If you find this project useful, feel free to ⭐ star the repository and contribute!**
