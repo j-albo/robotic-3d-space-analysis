@@ -83,7 +83,7 @@ Before scanning:
 
 ### **Installation**
 
-´´bash
+´´´bash
 git clone https://github.com/j-albo/robotic-3d-space-analysis.git
 cd robotic-3d-space-analysis
 source /opt/ros/humble/setup.bash
